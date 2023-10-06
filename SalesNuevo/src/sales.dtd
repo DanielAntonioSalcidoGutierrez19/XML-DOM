@@ -1,0 +1,8 @@
+<!ELEMENT sales_doc (sale_record)*>
+        <!ELEMENT sale_record (id,first_name,last_name,sales,state,department)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT first_name (#PCDATA)>
+        <!ELEMENT last_name (#PCDATA)>
+        <!ELEMENT sales (#PCDATA)>
+        <!ELEMENT state (#PCDATA)>
+        <!ELEMENT department (#PCDATA)>
